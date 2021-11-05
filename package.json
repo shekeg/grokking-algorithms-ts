@@ -1,0 +1,19 @@
+{
+  "name": "grokking-algorithms-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shekeg/grokking-algorithms-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shekeg/grokking-algorithms-ts/issues"
+  },
+  "homepage": "https://github.com/shekeg/grokking-algorithms-ts#readme"
+}
