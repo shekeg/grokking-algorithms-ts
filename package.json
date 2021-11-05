@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/shekeg/grokking-algorithms-ts/issues"
   },
-  "homepage": "https://github.com/shekeg/grokking-algorithms-ts#readme"
+  "homepage": "https://github.com/shekeg/grokking-algorithms-ts#readme",
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
 }
