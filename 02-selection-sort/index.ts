@@ -1,4 +1,4 @@
-export function selectionSort(arr) {
+export function selectionSort(arr: Array<number>) {
   const sortedArray = [];
   const length = arr.length;
 
@@ -10,7 +10,7 @@ export function selectionSort(arr) {
   return sortedArray;
 }
 
-function findSmallestIndex(arr) {
+function findSmallestIndex(arr: Array<number>) {
   let smallestIndex = 0;
   let smallest = arr[smallestIndex];
 
