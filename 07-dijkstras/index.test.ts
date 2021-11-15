@@ -27,7 +27,7 @@ describe('07-dijkstras', () => {
 
     expect(dijkstras(graph, costs, parents)).toEqual({
       cost: 6,
-      parents: { a: 'b', b: 'start', fin: 'a' },
+      path: ['start', 'b', 'a', 'fin'],
     });
   });
 });

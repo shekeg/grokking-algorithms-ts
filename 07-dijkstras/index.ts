@@ -18,7 +18,15 @@ export function dijkstras(graph, costs, parents) {
     node = findLowestCostNode(costs);
   }
 
-  return { cost: costs['fin'], parents };
+  let pointer = parents['fin'];
+  const path = [pointer, 'fin'];
+
+  while (pointer !== 'start') {
+    pointer = parents[pointer];
+    path.unshift(pointer);
+  }
+
+  return { cost: costs['fin'], path: path };
 
   function findLowestCostNode(costs) {
     let lowestCost = Infinity;
